@@ -42,6 +42,7 @@ public class testMyString
         assertEquals( "Y esto no tiene lineas ni tabuladores", quitarTabsYSaltosLinea( test3 ));
         assertEquals( "", quitarTabsYSaltosLinea( test4 ));
         assertEquals( null, quitarTabsYSaltosLinea( test5 ));
+
     }
 
     @Test
@@ -82,7 +83,8 @@ public class testMyString
 
     @Test
     public void testWrapYQuitar()
-    {  // Test conjunto de los dos metodos (a veces es interesante probar varios metodos interactuando entre si)
+    {
+        // Test conjunto de los dos metodos (a veces es interesante probar varios metodos interactuando entre si)
         assertEquals( "Hola#Esto ...", wrapString( quitarTabsYSaltosLinea(test1), 10 ) );
         assertEquals( "Hola#Esto ...", quitarTabsYSaltosLinea( wrapString(test1,10) ) );
     }
