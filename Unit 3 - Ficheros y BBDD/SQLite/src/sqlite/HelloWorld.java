@@ -19,7 +19,7 @@ public class HelloWorld
         Connection conn = null;
 
         // db parameters
-        String path = "myDB.db";
+        String path = "HelloWorld.db";
         String url = "jdbc:sqlite:" + path;
         try
         {
