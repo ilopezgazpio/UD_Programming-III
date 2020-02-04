@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ID Application</string>
+    <string name="hint_id">Please enter ID number</string>
+    <string name="submit">Submit</string>
+    <string name="dob">Date of birth:</string>
+    <string name="gender">Gender:</string>
+    <string name="nationality">Nationality:</string>
+</resources>
