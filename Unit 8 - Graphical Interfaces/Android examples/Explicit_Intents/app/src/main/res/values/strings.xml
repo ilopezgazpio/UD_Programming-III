@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Explicit_Intents</string>
+    <string name="action_settings">Settings</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="activity_3">Activity 3</string>
+    <string name="data_missing">Data missing</string>
+</resources>
